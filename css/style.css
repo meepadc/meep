@@ -1,0 +1,72 @@
+/*Header*/
+.logo {
+	padding: 40px 0 30px 60px;
+}
+
+#banner {
+	background: url('../img/banner.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: transparent;
+	height: 680px;
+	color: #fff;
+}
+
+#banner .banner-inner {
+	padding-top: 150px;
+    padding-bottom: 135px;
+}
+
+.banner_inner_title {
+	color: white;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+.banner_inner_info_box_title {
+	color: white;
+    font-size: 28px;
+}
+
+.banner_inner_info_box_list {
+	color: #fff;
+    font-size: 20px;
+    list-style: none;
+    line-height: 2.8;
+}
+
+.form_getStarted {
+	background: #141418;
+	margin-top: 90px;
+
+}
+
+.form_getStarted form {
+    padding-top: 30px;
+    padding-bottom: 60px;	
+}
+
+.form_title {
+	color: white;
+}
+
+legend {
+	padding-bottom: 15px !important; 
+}
+
+.form-group {
+	margin-top: 30px;
+	margin-bottom: 25px !important;
+}
+
+.box_btn_getStarted {
+	padding: 0 80px;
+}
+.btn_getStarted {
+    padding: 8px 40px !important;
+    background: #007abd !important;
+}
+
+.box_intro_img img {
+	display: inline-block;
+}
