@@ -1,3 +1,4 @@
+
 /*Header*/
 .logo {
 	padding: 40px 0 30px 60px;
@@ -67,6 +68,306 @@ legend {
     background: #007abd !important;
 }
 
+.box_reason_title {
+	padding: 20px;
+}
+
 .box_intro_img img {
 	display: inline-block;
+}
+
+.box_reason_img_left img {
+	width: 100%;
+}
+
+.media-heading {
+	font-weight: bold;
+	padding: 10px;
+}
+
+.des {
+	padding: 10px 0px;
+}
+@media (max-width: 768px) {
+	#banner .banner-inner {
+	padding-top: 50px;
+    padding-bottom: 0px;
+	}
+	.banner_inner_title {
+	    margin-bottom: 20px;
+	    font-size: 24px;
+	    text-align: center;
+	    line-height: 1.5;
+	}
+	.banner_inner_info_box_title {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.banner_inner_info_box {
+		margin-top: 50px;
+	}
+
+	.banner_inner_info_box_list {
+		line-height: 2;
+		font-size: 18px;
+		padding-top: 30px;
+	}	
+}
+
+#box_intro {
+	margin-top: 30px;
+}
+
+.webbnc {
+	padding: 50px;
+	background: #1774ba;
+	color: white;	
+}
+
+.webbnc_title {
+	padding-bottom: 40px;
+}
+
+.webbnc_image img {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.media-heading {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {	
+	#box_intro {
+		padding-top: 200px;
+	}
+
+	.webbnc_title {
+		font-size: 32px;
+		line-height: 1.2;
+	}
+
+	.media-heading {
+		line-height: 1.3;
+	}
+	
+	.webbnc_banner_right {
+		padding-top: 32px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.webbnc_title {
+		font-size: 24px;
+	}	
+}
+
+
+/*box price*/
+
+.box_price_title {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.item_active {
+	font-size: 32px;
+}
+
+.box_price_col_1 .list-group-item_title, .box_price_col_3 .list-group-item_title {
+	font-size: 14px;
+	line-height: 2.5;
+}
+
+.box_price_col_2 .list-group-item_title {
+	font-size: 14px;
+	line-height: 3;
+}
+
+.box_price_col_1 {
+	
+}
+
+.box_price_col_2 {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+
+.box_price_col_2 li {
+	line-height: 1.8;
+}
+
+.btn_buy_now {
+	padding: 8px 24px !important;
+	text-transform: uppercase;
+}
+
+.btn-register {
+	padding-top: 20px;
+}
+
+.btn-register .button1 {
+	display: inline-block;
+	background: #0088cc;
+}
+
+.btn-register .button1 button {
+ 	margin: 10px;
+}
+
+.btn-register p {
+	float: right;
+	padding: 10px;
+}
+
+@media (max-width: 768px) {
+	.box_price_col_2 {
+	width: 100%;
+	margin: 0 auto;
+	}
+	.box_price_title {
+	padding: 20px 0;
+	text-transform: uppercase;
+	}
+	.list-group-item_title {
+		font-size: 16px;
+	}	
+}
+
+/*box feedback*/
+#box_feedback {
+	background: #df2151;
+	color: white;
+}
+
+.box_feedback_title {
+	padding: 20px 0;
+}
+
+.user1 {
+	padding: 10px;
+}
+
+.avatar img {
+	margin: 0 auto;
+}
+
+.box_feedback_des {
+	padding-top: 50px;
+}
+
+.bonus_des {
+	padding: 20px 0;
+	text-align: center;
+	font-size: 34px;
+}
+@media (max-width: 768px) {
+	.box_feedback_title {
+	padding: 10px 0;
+	font-size: 20px;
+    }
+
+	.user1 {
+	padding: 5px;
+	}
+
+	.avatar img {
+		margin: 0 auto;
+	}
+
+	.box_feedback_des {
+		padding-top: 20px;
+	}
+
+	.bonus_des {
+		padding: 20px 0;
+		text-align: center;
+		font-size: 18px;
+	}
+}
+#box_sale_off {
+	padding: 100px 0;
+}
+/*Footer*/
+.footer_main {
+	float: left;
+	width: 100%;
+}
+.footer_top {
+	color: #777;
+    background: #333;
+    padding: 40px 0;
+}
+.footer_top_title h4 {
+    color: #fff;
+    border-bottom: 1px solid #1e1e1e;
+    padding: 0 0 20px 0;
+    position: relative;
+    margin: 0 0 15px 0;
+    font-size: 23px;
+}
+.footer_top_company a {
+    color: #b8b8b8;
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.footer_copyright {
+	background: #060606;
+    border-top: 4px solid #060606;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.footer_copyright p {
+	color: #555;
+}
+@media (max-width: 768px) {
+	.fb_api {
+		text-align: center;
+	}
+}
+
+.hotline_bnc {
+    position: fixed;
+    height: 35px;
+    background: #006899;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.34);
+    color: #FFF;
+    line-height: 35px;
+    z-index: 400;
+    bottom: 0;
+ }
+
+ .left_hotline {
+	float: left;
+	background: #D61717;
+	height: 28px;
+	padding: 0px 8px;
+	margin-top: 4px;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.hotline_location {
+	margin-left: 8px;
+	font-size: 12px;
+	color: #FFEB00;
+	font-weight: bold;
+}
+
+.hotline_phone a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
